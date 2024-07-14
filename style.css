@@ -5,7 +5,7 @@
 	text-decoration: none;
 	font-family: unifont;
 	box-sizing: border-box;
- transition: 0.25s;
+ transition: scale 0.25s;
 	
 	/* background-image: url("b1.jpg");
 	background-size: cover;
