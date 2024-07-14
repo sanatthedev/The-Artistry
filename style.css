@@ -5,7 +5,6 @@
 	text-decoration: none;
 	font-family: unifont;
 	box-sizing: border-box;
- transition: scale 0.25s;
 	
 	/* background-image: url("b1.jpg");
 	background-size: cover;
@@ -44,7 +43,7 @@
 	align-items: center;
 	flex-direction: column;
 	color: #ffffff;
-	padding-bottom: 23.4vw;
+	padding-bottom: 39vw;
 }
 #name{
 	/*padding: 20px;*/
@@ -64,34 +63,49 @@
 	padding-left: 1.56vw;
 	color: #ffffff;
 }
+.m1{
+	height: 100vh;
+	background-color: #f4e8c1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
 .project{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	height: 100vh;
-	background-color: #f4e8c1;
 	color: #000000;
 }
 .p1{
+	/*padding-top: 4.5vw;*/
+	padding-bottom: 3vw;
 	font-size: 3.9vw;
 	font-family: unifont;
 	color: #000000;
 }
 .a1{
+	color: #ffffff;
 	font-family: unifont;
 	font-size: 3.9vw;
 }
-.about{
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+.m2{
 	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 	background-image: url("blender.jpg");
 	background-size: cover;
 	background-repeat: none;
 	background-position: center;
 	background-attachment: fixed;
 	color: #ffffff;
+}
+.about{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 .bio{
 	width: 50vw;
@@ -110,14 +124,16 @@
 	width: 24vw;
 	border: 0.78vw solid #ffffff;
 	border-radius: 1.56vw;
+	margin-bottom: 1.3vw;
 }
 .contact{
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 	align-items: center;
 	height: 100vh;
-	background-color: #1c1c1c;
 	color: #ffffff;
+	background-color: #1c1c1c;
 	font-family: unifont;
 	padding-left: 7.8vw;
 	padding-right: 7.8vw;
@@ -125,17 +141,20 @@
 .c1{
 	font-family: unifont;
 	font-size: 3.9vw;
-	padding-top: 8vw;
+	/*padding-top: 8vw;*/
 }
 #d1{
 	width: 39vw;
 	border: 0.78vw solid #000000;
 	border-radius: 1.56vw;
-	margin: 3.9vw;
+	margin-left: 3.9vw;
+	margin-right: 3.9vw;
+	/*margin-bottom: 1.3vw;*/
 }
 .desc{
 	margin-right: 3.0vw;
 	color: #000000;
+	/*padding-bottom: 4.5vw;*/
 }
 .contactdetails{
 	display: flex;
@@ -174,4 +193,35 @@ footer{
 	padding-top: 1.56vw;
 	font-size: 1.25vw;
 	color: #000000;
+}
+.dots-container {
+    display: flex;
+    padding-right: 0,78vw;
+}
+
+.dot {
+    width: 1.17vw;
+    height: 1.17vw;
+    background-color: #ffffff;
+    border-radius: 50%;
+    opacity: 0;
+    animation: blink 1.5s infinite;
+	margin-right: 0.78vw;
+}
+
+.dot:nth-child(2) {
+    animation-delay: 0.5s;
+}
+
+.dot:nth-child(3) {
+    animation-delay: 1s;
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
 }
