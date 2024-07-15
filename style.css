@@ -27,7 +27,7 @@ html{
 	font-size: 1.56vw;
 }
 #anchor:hover {
-	font-weight: 900;
+	font-weight: 800;
 }
 .navbar{
 	display: flex;
@@ -294,7 +294,7 @@ footer{
         opacity: 1;
     }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
 	
 	/* Page 1 */
 	
@@ -324,13 +324,13 @@ footer{
 	
 	.project{
 		flex-direction: column;
-		margin: 10vh;
+		margin: 3vh;
 		margin-top: 0vh;
-		justify-content: space-between;
+		/*justify-content: space-between;*/
 	}
 	.desc{
 		margin-right: 0;
-		margin-top: 10vh;
+		margin-top: 3vh;
 		width: 80vw;
 	}
 	.para{
