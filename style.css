@@ -365,6 +365,8 @@ footer{
 	#profilepic{
 		width: 40vw;
 		margin-bottom: 3vh;
+  margin-right: 0vw;
+	 margin-left: 0vw;
 	}
 	#a1{
 	margin-top: 2vh;
