@@ -6,7 +6,7 @@
 	font-family: unifont;
 	box-sizing: border-box;
 	list-style-type: disc;
-	transition: 0.25s
+	transition: 0.25s;
 	
 	/* background-image: url("b1.jpg");
 	background-size: cover;
@@ -365,9 +365,11 @@ footer{
 	#profilepic{
 		width: 40vw;
 		margin-bottom: 3vh;
-  margin-right: 0vw;
-	 margin-left: 0vw;
 	}
+	.profilepic{
+	margin-right: 0;
+	margin-left: 0;
+}
 	#a1{
 	margin-top: 2vh;
 	margin-bottom: 2vh;
