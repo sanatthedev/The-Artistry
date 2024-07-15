@@ -342,7 +342,7 @@ footer{
 	.p1{
 		padding-top: 2vh;
 		padding-bottom: 3vh;
-		font-size: 6vw;
+		font-size: 8vw;
 	}
 	.imgtitle{
 		font-size: 5vw;
@@ -351,7 +351,7 @@ footer{
 	/* Page 3 */
 	
 	.a1{
-		font-size: 6vw;
+		font-size: 8vw;
 	}
 	.about{
 		flex-direction: column-reverse;
@@ -371,10 +371,10 @@ footer{
 	margin-bottom: 2vh;
 	}
 	
-	/* Page 3 */
+	/* Page 4 */
 	
 	.c1{
-		font-size: 6vw;
+		font-size: 8vw;
 	}
 	.contactdetails{
 		flex-direction: column;
