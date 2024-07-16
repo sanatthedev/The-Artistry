@@ -42,7 +42,7 @@ html{
 	/*background-color: #c0c0c0;*/
 	background-attachment: fixed;
 	background-size: cover;
-	background-repeat: none;
+	background-repeat: no-repeat;
 	background-position: center;
 }
 .menubar{
