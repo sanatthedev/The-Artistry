@@ -218,7 +218,7 @@ footer{
 	align-items: baseline;
 }
 .dots-container {
-    display: flex;
+    display: none;
 	margin-top: 15vh;
     padding-right: 0.78vw;
 }
